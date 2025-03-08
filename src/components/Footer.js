@@ -4,6 +4,7 @@ import { Facebook, Instagram, LinkedIn } from '@mui/icons-material';
 
 const Footer = () => {
   return (
+    
     <Box
     sx={{
       display: 'flex',
@@ -40,6 +41,9 @@ const Footer = () => {
           justifyContent: 'space-between',
           alignItems: 'center',
           flexWrap: 'wrap',
+          paddingLeft:'15em',
+          paddingRight:'15em'
+
         }}
       >
         {/* Left side links (FAQ, Contact, Privacy, Support) */}
