@@ -58,6 +58,7 @@ const Story = () => {
             This is a description of the content card. It provides an overview or some details about the content.
             <br></br>
             <br></br>
+
             <Link variant='h6' fontSize={15} boxShadow={1} borderRadius={2} padding={1}  fontWeight={300}  color='gray' underline='none'>
             Read more
                 </Link>
